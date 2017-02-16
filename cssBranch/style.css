@@ -20,5 +20,9 @@ a:visited {
 hr {
    display: block;
    height: 4px;
+   border: 0;
+   border-top: 1px solid #ccc;
    border-color: #FCA641;
+   margin: 1em 0;
+   padding: 0;
 }
