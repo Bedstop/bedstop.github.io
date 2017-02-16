@@ -10,8 +10,9 @@ p {
 }
 a:link {
   font-family: 'Sagoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
 }
 a:visited {
   font-family: 'Sagoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: orange;
+  color: black;
 }
