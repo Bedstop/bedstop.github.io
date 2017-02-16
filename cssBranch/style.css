@@ -22,7 +22,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3F2815;
+    background-color: rgba(63, 40, 21, 0.9);
 }
 
 li {
