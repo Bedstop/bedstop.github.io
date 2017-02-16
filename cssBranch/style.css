@@ -16,3 +16,11 @@ a:visited {
   font-family: 'Sagoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
 }
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 4px solid #FCA641;
+    margin: 1em 0;
+    padding: 0; 
+}
