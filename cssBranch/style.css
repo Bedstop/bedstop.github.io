@@ -16,3 +16,6 @@ a:visited {
   font-family: 'Sagoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
 }
+head {
+     backgound-color: rgba(252,166,65,0.3);
+}
