@@ -19,3 +19,9 @@ a:visited {
 head {
      background-color: rgba(252, 166, 65, 0.3);
 }
+hr {
+   didplay: block;
+   height: 4px;
+   border: 0;
+   border-color: #FCA641;
+}
