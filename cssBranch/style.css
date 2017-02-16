@@ -34,10 +34,10 @@ li a {
     color: white;
     text-align: center;
     padding: 20px 23px;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #DF8722;
+    border-bottom: 2px solid #DF8722;
 }
