@@ -20,14 +20,13 @@ a:visited {
 }
 ul {
     position:fixed;
-    top:200px;
+    top:190px;
     width:100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.9);
-    border-bottom: 6px rgba(63, 40, 21, 0.5);
 }
 
 li {
