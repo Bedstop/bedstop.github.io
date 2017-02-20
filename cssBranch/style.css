@@ -9,7 +9,7 @@ p {
   text-align: left;
 }
 img {
-    max-width: 100%;
+    width: auto;
     height: auto;
 }
 a:link {
