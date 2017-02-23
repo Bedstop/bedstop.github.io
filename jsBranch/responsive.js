@@ -15,8 +15,7 @@ var navNewYPos=titleImgHeight+padTitleImg;
 //console.log(titleImgHeight+padTitleImg-navYPos);
 
 
-window.onresize=
-    () => {
+window.onresize= () => {
   var titleImgWidth = window.innerWidth-15 +'px'
   var widthRatio=titleImgWidth.match(/\d+/)[0]/ogWidth
   titleImgHeight=ogHeight*widthRatio
@@ -29,19 +28,18 @@ window.onresize=
 }
 
 
-document.getElementById('fullPage').onscroll = 
-    () => {
-  var fullPage = document.getElementById('fullPage')
-  if (fullPage.scrollTop>titleImgHeight+padTitleImg-navYPos && fullPage.scrollTop<titleImgHeight+padTitleImg){
-      nav.style.position="absolute"
-      nav.style.top=navNewYPos+"px"
+document.getElementById('fullPage').onscroll = () => {
+    var fullPage = document.getElementById('fullPage');
+    if (fullPage.scrollTop>titleImgHeight+padTitleImg-navYPos && fullPage.scrollTop<titleImgHeight+padTitleImg){
+      nav.style.position="absolute";
+      nav.style.top=navNewYPos+"px";
   }
   else if(fullPage.scrollTop>titleImgHeight+padTitleImg){
-      nav.style.position="fixed"
-      nav.style.top="0px"
+      nav.style.position="fixed";
+      nav.style.top="0px";
   }
   else {
-      nav.style.position="fixed"
-      nav.style.top=(titleImgHeight+padTitleImg-navHeight)/1.2+'px'
+      nav.style.position="fixed";
+      nav.style.top=(titleImgHeight+padTitleImg-navHeight)/1.2+'px';
   }
 };
