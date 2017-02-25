@@ -39,9 +39,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    border-bottom: 2px solid #DF8722;
-}
 
 .button {
     font-family: 'Sagoe UI', Tahoma, Geneva, Verdana, sans-serif;
